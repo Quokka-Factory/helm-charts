@@ -3,7 +3,7 @@ entries:
   lago:
   - apiVersion: v2
     appVersion: 1.15.6
-    created: "2024-11-19T15:11:28.597741243Z"
+    created: "2024-11-19T17:24:36.275076913Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -25,7 +25,7 @@ entries:
     version: 1.15.6
   - apiVersion: v2
     appVersion: 1.15.4
-    created: "2024-11-19T15:11:28.586591573Z"
+    created: "2024-11-19T17:24:36.263695083Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -47,7 +47,7 @@ entries:
     version: 1.15.4
   - apiVersion: v2
     appVersion: 1.15.2
-    created: "2024-11-19T15:11:28.55104624Z"
+    created: "2024-11-19T17:24:36.224039092Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -62,14 +62,14 @@ entries:
       repository: https://charts.min.io/
       version: 5.2.0
     description: the Lago open source billing app
-    digest: d855b9900b9bce82eccd4919377bf3f74955de0102bc30e2b389555618a7bedd
+    digest: 102c06c516d4827c5531974de23fd63eed6b47de9748dca2c9743334a37fd186
     name: lago
     urls:
     - https://quokka-factory.github.io/helm-charts/artifacts/lago-1.15.2.tgz
     version: 1.15.2
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2024-11-19T15:11:28.524206589Z"
+    created: "2024-11-19T17:24:36.213761654Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -91,7 +91,7 @@ entries:
     version: 1.15.0
   - apiVersion: v2
     appVersion: 1.14.5
-    created: "2024-11-19T15:11:28.490234425Z"
+    created: "2024-11-19T17:24:36.1795601Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -113,7 +113,7 @@ entries:
     version: 1.14.5
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2024-11-19T15:11:28.619112624Z"
+    created: "2024-11-19T17:24:36.308625895Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -135,7 +135,7 @@ entries:
     version: 1.5.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2024-11-19T15:11:28.47640082Z"
+    created: "2024-11-19T17:24:36.167034541Z"
     description: the Lago open source billing app
     digest: 50a684223c7ab4539609530b608119d8e0f9a51dd98ef8d28eb297e5862c178d
     name: lago
@@ -145,7 +145,7 @@ entries:
   minio:
   - apiVersion: v1
     appVersion: RELEASE.2024-04-18T19-09-19Z
-    created: "2024-11-19T15:11:28.620434805Z"
+    created: "2024-11-19T17:24:36.309920633Z"
     description: High Performance Object Storage
     digest: 8ef4212d7d51be6c8192b3e91138a9ca918ca56142c42500028cfd3b80e0b2dd
     home: https://min.io
@@ -178,7 +178,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.0
-    created: "2024-11-19T15:11:28.623874109Z"
+    created: "2024-11-19T17:24:36.313356804Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -222,7 +222,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.3
-    created: "2024-11-19T15:11:28.628363067Z"
+    created: "2024-11-19T17:24:36.317490974Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -248,4 +248,4 @@ entries:
     urls:
     - https://quokka-factory.github.io/helm-charts/charts/redis-18.2.1.tgz
     version: 18.2.1
-generated: "2024-11-19T15:11:28.462558139Z"
+generated: "2024-11-19T17:24:36.153113898Z"
